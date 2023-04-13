@@ -1,14 +1,14 @@
 package rest
 
 type restResp struct {
-	Code    string
+	Code    int
 	Message string
 	Data    map[string]any
 }
 
 var EmptyReturnData = map[string]any{}
 
-func newRestResp(code, message string, data map[string]any) *restResp {
+func newRestResp(code int, message string, data map[string]any) *restResp {
 	return &restResp{
 		Code:    code,
 		Message: message,
@@ -24,7 +24,7 @@ func (r *restResp) toMap() map[string]any {
 	return m
 }
 
-func Resp(code, message string, data map[string]any) map[string]any {
+func Resp(code int, message string, data map[string]any) map[string]any {
 	resp := &restResp{
 		Code:    code,
 		Message: message,
@@ -33,7 +33,7 @@ func Resp(code, message string, data map[string]any) map[string]any {
 	return resp.toMap()
 }
 
-func EmptyResp(code, message string) map[string]any {
+func EmptyResp(code int, message string) map[string]any {
 	resp := &restResp{
 		Code:    code,
 		Message: message,

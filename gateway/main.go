@@ -28,31 +28,31 @@ func CORSMiddleware() gin.HandlerFunc {
 func transform(context *gin.Context) {
 	input, err := io.ReadAll(context.Request.Body)
 	if err != nil {
-		context.AsciiJSON(200, rest.EmptyResp("10000", err.Error()))
+		context.AsciiJSON(200, rest.EmptyResp(10000, err.Error()))
 		return
 	}
 
 	input, err = common.Decompress(input)
 	if err != nil {
-		context.AsciiJSON(200, rest.EmptyResp("10000", err.Error()))
+		context.AsciiJSON(200, rest.EmptyResp(10000, err.Error()))
 		return
 	}
 
 	xml, err := TranslateClient.CreateBuilding(string(input))
 	if err != nil {
-		context.AsciiJSON(200, rest.EmptyResp("10000", err.Error()))
+		context.AsciiJSON(200, rest.EmptyResp(10000, err.Error()))
 		return
 	}
 
 	data := map[string]any{
 		"xml": string(xml),
 	}
-	resp := rest.Resp("200", "ok", data)
+	resp := rest.Resp(200, "ok", data)
 	context.AsciiJSON(200, resp)
 }
 
 func status(context *gin.Context) {
-	resp := rest.EmptyResp("200", "ok")
+	resp := rest.EmptyResp(200, "ok")
 	context.AsciiJSON(200, resp)
 }
 
