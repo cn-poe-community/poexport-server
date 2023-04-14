@@ -32,7 +32,7 @@ process.on('uncaughtException', err => {
     console.log('caught uncaught exception: ' + err)
 })
 
-const port = 8000
+const port = 8001
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
