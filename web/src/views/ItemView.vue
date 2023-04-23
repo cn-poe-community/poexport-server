@@ -19,6 +19,7 @@ function translate(){
 <template>
   <div class="container">
     <div class="itemTextList">
+      <p>将中文装备（交易网站、客户端复制）翻译为英文版本</p>
       <textarea class="itemText" v-model="input"></textarea>
       <textarea class="itemText" v-model="output" disabled></textarea>
     </div>
