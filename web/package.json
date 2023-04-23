@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cn-poe-translator": "^0.1.22",
+    "cn-poe-translator": "^0.1.23",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
