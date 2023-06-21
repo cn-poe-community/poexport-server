@@ -1,5 +1,6 @@
 import bodyParser from 'body-parser';
-import { TranslatorFactory } from 'cn-poe-translator';
+import { BasicTranslatorFactory } from "cn-poe-translator";
+import Assets from "cn-poe-export-db";
 import { transform } from "pob-building-creater";
 import express from 'express'
 import { deflate } from "pako";
@@ -10,7 +11,7 @@ type TranslateRequest = {
     "passiveSkills": unknown
 }
 
-const factory = TranslatorFactory.Default();
+const factory = new BasicTranslatorFactory(Assets);
 const jsonTranslator = factory.getJsonTranslator();
 
 const app = express()

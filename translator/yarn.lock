@@ -166,10 +166,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cn-poe-translator@npm:^0.1.26":
-  version: 0.1.26
-  resolution: "cn-poe-translator@npm:0.1.26"
-  checksum: 6d01b1da0f9698be54aa8d99c180d3352ae5282d2bda4e6d854e96f3c67ac7f4bd406bc7790da10d71b936df622dbd1c07f783c34928332d23ab2406089d30ee
+"cn-poe-export-db@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "cn-poe-export-db@npm:0.0.9"
+  checksum: 88731a461d56e18e8935563f287f77f93e0b5ba31dad277cf0862283845034546174cce0f882b743b8e04a9c5301ce9b5e1d58e6d560046aba8bf8fe341bff20
+  languageName: node
+  linkType: hard
+
+"cn-poe-translator@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "cn-poe-translator@npm:0.2.2"
+  checksum: cd32996de5eab5378bc5c8a986bf8fa2ab1dde05c88d136e3a546aa147b8a0bd6d7cb4e0b9402872165a3a20bb80dd977736d9126d9e1d99ea722546b3e8d6c9
   languageName: node
   linkType: hard
 
@@ -512,13 +519,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-building-creater@npm:0.0.3":
-  version: 0.0.3
-  resolution: "pob-building-creater@npm:0.0.3"
+"pob-building-creater@npm:0.0.8":
+  version: 0.0.8
+  resolution: "pob-building-creater@npm:0.0.8"
   dependencies:
     js-base64: ^3.7.5
     mustache: ^4.2.0
-  checksum: 5696936339e4aa5c1b93af3cc428d36d0ec397184fb67b44f0c041a40bbe9e8e1b606f6df0099edad1ad1331aadb35d668b6385effa69af422f5c8a94bb12aba
+  checksum: b8696c319f99273bab5bc7de65ce84c7af7459748e69fd9d4a8b08f7e3b2755cdfd73aba15b1dd8dcebf850b237b030654558cadd40afd4be3eecc358bf54275
   languageName: node
   linkType: hard
 
@@ -658,11 +665,12 @@ __metadata:
     "@types/express": ^4.17.17
     "@types/pako": ^2.0.0
     body-parser: ^1.20.2
-    cn-poe-translator: ^0.1.26
+    cn-poe-export-db: ^0.0.9
+    cn-poe-translator: ^0.2.2
     express: ^4.18.2
     js-base64: ^3.7.5
     pako: ^2.1.0
-    pob-building-creater: 0.0.3
+    pob-building-creater: 0.0.8
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
