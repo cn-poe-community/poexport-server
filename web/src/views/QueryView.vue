@@ -1,7 +1,8 @@
 <script setup>
-import { ref, computed } from 'vue'
-import { accessories, armour, flasks, jewels, weapons, gems } from 'cn-poe-translator';
+import { ref, computed } from 'vue';
+import CnPoeExportDb from "cn-poe-export-db/dist/db.global";
 
+const { accessories, armour, flasks, jewels, weapons, gems } = CnPoeExportDb;
 const baseTypesList = [accessories, armour, flasks, jewels, weapons];
 
 const baseTypeMap = new Map();

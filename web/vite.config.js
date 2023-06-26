@@ -10,5 +10,13 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build: {
+    rollupOptions: {
+      external: [
+        'cn-poe-translator/dist/index.global',
+        'cn-poe-export-db/dist/db.global',
+      ],
+    },
   }
 })
