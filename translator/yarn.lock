@@ -166,10 +166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cn-poe-export-db@npm:^0.0.10":
-  version: 0.0.10
-  resolution: "cn-poe-export-db@npm:0.0.10"
-  checksum: 943fcd0197dcb5995ac5f5ee0f453e73a7c2be236e4ef86639c5f393a000307cf27ddf3b5bdccaf7e56da9943372c39b9f37c76cf03202aebde44374bdd3567a
+"cn-poe-export-db@npm:^0.0.11":
+  version: 0.0.11
+  resolution: "cn-poe-export-db@npm:0.0.11"
+  checksum: 8f134e8aa124981a40c17dea97a5c30a7e742ba5c3e900945e51f90a304fe0139f9f2f2f79bb228e381a4ae08e8c7545d5198df9382d92db293e9533a5d9c827
   languageName: node
   linkType: hard
 
@@ -519,13 +519,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-building-creater@npm:0.0.9":
-  version: 0.0.9
-  resolution: "pob-building-creater@npm:0.0.9"
+"pob-building-creater@npm:0.0.10":
+  version: 0.0.10
+  resolution: "pob-building-creater@npm:0.0.10"
   dependencies:
     js-base64: ^3.7.5
     mustache: ^4.2.0
-  checksum: aedc5789a81bc038d3267e7f0c8803da35bf85635a0404316a81f15c79e9a9e7a90ee30c6d4110b51f69b5d6f87584d772816ab8d4a4cb90f23b5c2cbdd3590b
+  checksum: df0d2561744f0d261ed381491ca42762c868df8f9678db0cc48397d65ec43831a7ef0348fd02663a5fdbe767044f0f293fb761d5a7bc5eb2467d8dcdd997f262
   languageName: node
   linkType: hard
 
@@ -665,12 +665,12 @@ __metadata:
     "@types/express": ^4.17.17
     "@types/pako": ^2.0.0
     body-parser: ^1.20.2
-    cn-poe-export-db: ^0.0.10
+    cn-poe-export-db: ^0.0.11
     cn-poe-translator: ^0.2.2
     express: ^4.18.2
     js-base64: ^3.7.5
     pako: ^2.1.0
-    pob-building-creater: 0.0.9
+    pob-building-creater: 0.0.10
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
