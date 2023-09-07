@@ -166,17 +166,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cn-poe-export-db@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "cn-poe-export-db@npm:0.0.11"
-  checksum: 8f134e8aa124981a40c17dea97a5c30a7e742ba5c3e900945e51f90a304fe0139f9f2f2f79bb228e381a4ae08e8c7545d5198df9382d92db293e9533a5d9c827
+"cn-poe-export-db@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "cn-poe-export-db@npm:0.0.13"
+  checksum: e827045ea050fddef71b65a23c6253116feaca8bc9692cdded29a3d9384fba62a062d8f848d38414c71b8482cb6985fa603ab4833646b813a93ddd8dd8b81582
   languageName: node
   linkType: hard
 
-"cn-poe-translator@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "cn-poe-translator@npm:0.2.2"
-  checksum: cd32996de5eab5378bc5c8a986bf8fa2ab1dde05c88d136e3a546aa147b8a0bd6d7cb4e0b9402872165a3a20bb80dd977736d9126d9e1d99ea722546b3e8d6c9
+"cn-poe-translator@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "cn-poe-translator@npm:0.2.4"
+  checksum: 90a9654385d50e1594bf59a71f92b18d0bb5cc9ba2fca15d418757b10c364275dc2a0aaa844c521c32d0334f5a9bb81e0e904a9d83eff85ac097dbf7c48d16bd
   languageName: node
   linkType: hard
 
@@ -519,13 +519,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-building-creater@npm:0.0.10":
-  version: 0.0.10
-  resolution: "pob-building-creater@npm:0.0.10"
+"pob-building-creater@npm:0.0.12":
+  version: 0.0.12
+  resolution: "pob-building-creater@npm:0.0.12"
   dependencies:
     js-base64: ^3.7.5
     mustache: ^4.2.0
-  checksum: df0d2561744f0d261ed381491ca42762c868df8f9678db0cc48397d65ec43831a7ef0348fd02663a5fdbe767044f0f293fb761d5a7bc5eb2467d8dcdd997f262
+  checksum: c37d935ea5a345336958e1c5f7ab75a58800b78a599f958bcffb82bb1d0f4114f191342271199f3dfd764fac3eb0350a4a984c0ce4a98546ed83da1beee5850a
   languageName: node
   linkType: hard
 
@@ -665,12 +665,12 @@ __metadata:
     "@types/express": ^4.17.17
     "@types/pako": ^2.0.0
     body-parser: ^1.20.2
-    cn-poe-export-db: ^0.0.11
-    cn-poe-translator: ^0.2.2
+    cn-poe-export-db: ^0.0.13
+    cn-poe-translator: ^0.2.4
     express: ^4.18.2
     js-base64: ^3.7.5
     pako: ^2.1.0
-    pob-building-creater: 0.0.10
+    pob-building-creater: 0.0.12
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
