@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.13
     version: 0.0.13
   cn-poe-translator:
-    specifier: ^0.2.4
-    version: 0.2.4
+    specifier: ^0.2.5
+    version: 0.2.5
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -344,8 +344,8 @@ packages:
     resolution: {integrity: sha512-wi+VhXR8c4Sv7v41Xbh2/1Nqe7WMxElvzE+SN53CMVDbeoDZa35Qx2Ek9j7CuBYstO8vUauJ+9cDuzhzF8PY/g==}
     dev: false
 
-  /cn-poe-translator@0.2.4:
-    resolution: {integrity: sha512-M9/F5mQmysJvW/DkgOjLGbOmU1pUHFLP4WhYIJAryWRivefhAQSTylQy8JLeTFjld1eyd2v0HShugvwLKBbVLQ==}
+  /cn-poe-translator@0.2.5:
+    resolution: {integrity: sha512-bq6K0k557Rmc0GnlMMLrZkQ8ED904RL1sm5MMzjA9tkvbYqzJbIUUu7OZvA+oqbNo12nzFoWjfp8E4kueBAKig==}
     dev: false
 
   /csstype@3.1.2:

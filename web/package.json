@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "cn-poe-export-db": "^0.0.13",
-    "cn-poe-translator": "^0.2.4",
+    "cn-poe-translator": "^0.2.5",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },

@@ -173,10 +173,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cn-poe-translator@npm:^0.2.4":
-  version: 0.2.4
-  resolution: "cn-poe-translator@npm:0.2.4"
-  checksum: 90a9654385d50e1594bf59a71f92b18d0bb5cc9ba2fca15d418757b10c364275dc2a0aaa844c521c32d0334f5a9bb81e0e904a9d83eff85ac097dbf7c48d16bd
+"cn-poe-translator@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "cn-poe-translator@npm:0.2.5"
+  checksum: 247a7fc7190f124b82ceb767b6a76be3e982642b328465cc84816808267d231244698fd4392a72ae4dda7f46ed5f50da7412e7c28b317bed1f2276fc097c5238
   languageName: node
   linkType: hard
 
@@ -666,7 +666,7 @@ __metadata:
     "@types/pako": ^2.0.0
     body-parser: ^1.20.2
     cn-poe-export-db: ^0.0.13
-    cn-poe-translator: ^0.2.4
+    cn-poe-translator: ^0.2.5
     express: ^4.18.2
     js-base64: ^3.7.5
     pako: ^2.1.0
