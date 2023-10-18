@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "body-parser": "^1.20.2",
-    "cn-poe-export-db": "^0.0.13",
+    "cn-poe-export-db": "^0.0.14",
     "cn-poe-translator": "^0.2.5",
     "express": "^4.18.2",
     "js-base64": "^3.7.5",

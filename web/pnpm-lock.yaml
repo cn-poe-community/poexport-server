@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   cn-poe-export-db:
-    specifier: ^0.0.13
-    version: 0.0.13
+    specifier: ^0.0.14
+    version: 0.0.14
   cn-poe-translator:
     specifier: ^0.2.5
     version: 0.2.5
@@ -340,8 +340,8 @@ packages:
   /@vue/shared@3.3.4:
     resolution: {integrity: sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==}
 
-  /cn-poe-export-db@0.0.13:
-    resolution: {integrity: sha512-wi+VhXR8c4Sv7v41Xbh2/1Nqe7WMxElvzE+SN53CMVDbeoDZa35Qx2Ek9j7CuBYstO8vUauJ+9cDuzhzF8PY/g==}
+  /cn-poe-export-db@0.0.14:
+    resolution: {integrity: sha512-v/yU0QI6n6JbeOfIpWuKjg/2BEdcYTlBOCrQVs0Xea9PDf2k6THDAkHUNLXBv/Y76J3sLhrcX7gnG3WF1a6esw==}
     dev: false
 
   /cn-poe-translator@0.2.5:
