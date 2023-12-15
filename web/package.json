@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cn-poe-export-db": "^0.1.1",
+    "cn-poe-export-db": "^0.1.2",
     "cn-poe-translator": "^0.2.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
