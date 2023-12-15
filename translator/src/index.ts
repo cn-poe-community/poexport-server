@@ -1,10 +1,10 @@
-import bodyParser from 'body-parser';
 import { BasicTranslatorFactory } from "cn-poe-translator";
-import Assets from "cn-poe-export-db";
-import { transform } from "pob-building-creater";
-import express from 'express'
+import express from "express";
+import { Base64 } from "js-base64";
 import { deflate } from "pako";
-import { Base64 } from 'js-base64';
+import { transform } from "pob-building-creater";
+import Assets from "cn-poe-export-db";
+import bodyParser from 'body-parser';
 
 type TranslateRequest = {
     "items": unknown,
