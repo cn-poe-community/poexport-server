@@ -34,17 +34,15 @@ for (const baseTypes of baseTypesList) {
   }
 }
 
-const skillMap = new Map();
-const skillNameList = [];
+const gemMap = new Map();
+const gemNameList = [];
 for (let gem of gems) {
-  for (let skill of gem.skills) {
-    skillMap.set(skill.zh, skill.en);
-    skillNameList.push(skill.zh);
-  }
+    gemMap.set(gem.zh, gem.en);
+    gemNameList.push(gem.zh);
 }
 
 const namesList = [
-  baseTypeNameList, uniqueNameList, skillNameList
+  baseTypeNameList, uniqueNameList, gemNameList
 ]
 
 const queryType = ref("0");
@@ -71,8 +69,8 @@ function answer(){
       return;
     }
   }else if (queryType.value === "2") {
-    if (skillMap.has(text)) {
-      output.value = skillMap.get(text).replace(" Support","");
+    if (gemMap.has(text)) {
+      output.value = gemMap.get(text).replace(" Support","");
       return;
     }
   }
