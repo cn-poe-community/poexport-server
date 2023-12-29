@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from 'vue';
-import CnPoeTranslator from "cn-poe-translator/dist/index.global";
-import CnPoeExportDb from "cn-poe-export-db/dist/db.global";
-const factory = CnPoeTranslator.newBasicTranslatorFactory(CnPoeExportDb);
+
+// CnPoeTranslator and CnPoeExportDb are imported by index.html
+const factory = new CnPoeTranslator.BasicTranslatorFactory(CnPoeExportDb);
 const textTranslator = factory.getTextTranslator();
 
 const input = ref(null);
