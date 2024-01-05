@@ -1,8 +1,9 @@
 <script setup>
 import { ref, computed } from 'vue';
+import Assets from "cn-poe-export-db";
 
-// CnPoeExportDb are imported by index.html
-const { accessories, armour, flasks, jewels, weapons, gems } = CnPoeExportDb;
+
+const { accessories, armour, flasks, jewels, weapons, gems } = Assets;
 const baseTypesList = [accessories, armour, flasks, jewels, weapons];
 
 const baseTypeMap = new Map();
