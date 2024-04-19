@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   cn-poe-export-db:
-    specifier: ^0.1.4
-    version: 0.1.4
+    specifier: ^0.1.5
+    version: 0.1.5
   cn-poe-translator:
     specifier: ^0.2.8
     version: 0.2.8
@@ -340,8 +340,8 @@ packages:
   /@vue/shared@3.3.4:
     resolution: {integrity: sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==}
 
-  /cn-poe-export-db@0.1.4:
-    resolution: {integrity: sha512-P7d8FfnRKNYNTs+8QZq3ejpkxD79+imcBy+rqVR+bY3h+9vBT/0ap4x+XKCRoUJv+2zi5h1krBlF6Gcl3tJrUQ==}
+  /cn-poe-export-db@0.1.5:
+    resolution: {integrity: sha512-88r7MEEubx6PZlbOedyo0Dpl2U3caCujxAKoC5plf8MUgkfzz1RzAiusshOOj5+H/NeoBLDW3Q49siBHHy2Dvw==}
     dev: false
 
   /cn-poe-translator@0.2.8:
