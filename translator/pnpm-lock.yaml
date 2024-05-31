@@ -9,11 +9,11 @@ dependencies:
     specifier: ^1.20.2
     version: 1.20.2
   cn-poe-export-db:
-    specifier: ^0.1.5
-    version: 0.1.5
+    specifier: ^0.2.0
+    version: 0.2.0
   cn-poe-translator:
-    specifier: ^0.2.7
-    version: 0.2.7
+    specifier: ^0.3.0
+    version: 0.3.0
   express:
     specifier: ^4.18.2
     version: 4.18.2
@@ -184,12 +184,12 @@ packages:
       set-function-length: 1.1.1
     dev: false
 
-  /cn-poe-export-db@0.1.5:
-    resolution: {integrity: sha512-88r7MEEubx6PZlbOedyo0Dpl2U3caCujxAKoC5plf8MUgkfzz1RzAiusshOOj5+H/NeoBLDW3Q49siBHHy2Dvw==}
+  /cn-poe-export-db@0.2.0:
+    resolution: {integrity: sha512-yUsRsDxcrAm5UJSDTcrKaOUwTUZcJkgHm93Tan/ngtixaX3xNqQ477Z2PM8jpP6gtBrxETaBD452UNXTdbc9Jw==}
     dev: false
 
-  /cn-poe-translator@0.2.7:
-    resolution: {integrity: sha512-G+LWVXqNI3+gKND4FseLN9adWFb+3OjXmZ8EcvoIBOadrXd6BbkUkEq+PH09fo13mYxjyl18A5QWqhYwDHt1yw==}
+  /cn-poe-translator@0.3.0:
+    resolution: {integrity: sha512-x8zPvmasOwIHeYSBtcdTVvwTIUqQ/WcSB8btj8H0zZjq3IZ5uNiLrmi92p8EZbyzsjIRwAYnU2rh8PgzqLq4zw==}
     dev: false
 
   /content-disposition@0.5.4:

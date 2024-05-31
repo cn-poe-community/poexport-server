@@ -3,8 +3,8 @@ import { ref, computed } from 'vue';
 import Assets from "cn-poe-export-db";
 
 
-const { accessories, armour, flasks, jewels, weapons, gems } = Assets;
-const baseTypesList = [accessories, armour, flasks, jewels, weapons];
+const {amulets, belts, rings, bodyArmours, boots, gloves, helmets, quivers, shields, flasks, jewels, weapons, gems } = Assets;
+const baseTypesList = [amulets, belts, rings, bodyArmours, boots, gloves, helmets, quivers, shields, flasks, jewels, weapons];
 
 const baseTypeMap = new Map();
 const baseTypeNameList = [];
